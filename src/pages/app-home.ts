@@ -121,6 +121,10 @@ export class AppHome extends LitElement {
 
             <ul>
               <li>
+                <a href="https://justincellona.com/DiggerSim.apk">Download APK!</a>
+              </li>
+
+              <li>
                 <a href="https://www.typescriptlang.org/">TypeScript</a>
               </li>
 
