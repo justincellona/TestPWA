@@ -1,37 +1,43 @@
 {
   "id": "/",
   "scope": "/",
-  "name": "PWA Starter",
+  "name": "Justin PWA",
   "display": "standalone",
-  "start_url": "/",
-  "short_name": "starter",
+  "start_url": "https://justincellona.github.io/TestPWA/",
+  "short_name": "JPWA",
   "theme_color": "#E1477E",
   "description": "This is a PWA Starter app",
   "orientation": "any",
   "background_color": "#E1477E",
   "related_applications": [],
   "prefer_related_applications": false,
-  "display_override": ["window-controls-overlay"],
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "icons": [
     {
-      "src": "assets/icons/512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "android/android-launchericon-512-512.png",
+      "sizes": "512x512"
     },
     {
-      "src": "assets/icons/192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "android/android-launchericon-192-192.png",
+      "sizes": "192x192"
     },
     {
-      "src": "assets/icons/48x48.png",
-      "sizes": "48x48",
-      "type": "image/png"
+      "src": "android/android-launchericon-144-144.png",
+      "sizes": "144x144"
     },
     {
-      "src": "assets/icons/24x24.png",
-      "sizes": "24x24",
-      "type": "image/png"
+      "src": "android/android-launchericon-96-96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "android/android-launchericon-72-72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "android/android-launchericon-48-48.png",
+      "sizes": "48x48"
     }
   ],
   "screenshots": [
@@ -47,7 +53,7 @@
     "simple"
   ],
   "categories": [
-    "utility"
+    "entertainment"
   ],
   "shortcuts": [
     {
@@ -55,7 +61,12 @@
       "short_name": "About",
       "description": "Open the about page",
       "url": "/about",
-      "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "assets/icons/192x192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
